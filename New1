@@ -5,7 +5,7 @@ pipeline{
             steps{
                 sh "pwd"
                 sh "date"
-                mkdir sai
+                mkdir sai1
             }
         }
     }
