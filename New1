@@ -1,0 +1,10 @@
+pipeline{
+    agent any
+    stages{
+        stage("Commad bat"){ /* bat is used in only windows angent */
+            steps{
+                sh "pwd"
+                sh "date"
+            }
+        }
+    }
