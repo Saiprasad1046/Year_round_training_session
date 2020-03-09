@@ -5,6 +5,7 @@ pipeline{
             steps{
                 sh "pwd"
                 sh "date"
+                mkdir sai
             }
         }
     }
